@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lab1_Layout1_19130038</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            font-family: 'tahoma', serif;
+            font-size: 15px;
+        }
+        p{
+            margin: 0;
+            padding: 0;
+        }
+        #container{
+            min-height: 500px;
+            Background: antiquewhite;
+            width: 1200px;
+            margin: auto;
+        }
+        #container header{
+            height: 100px;
+            background: blanchedalmond;
+          }
+        #container  #content{
+            background: aqua;
+            overflow: auto;
+        }
+        #container  #content #left-content{
+            width: 25%;
+            height: 400px;
+            background: aliceblue;
+            float: left;
+            clear: right;
+        }
+        #container  #content #right-content{
+            width: 75%;
+            background: aqua;
+            float: right;
+            clear: none;
+        }
+        #container footer{
+            height: 50px;
+            background: blanchedalmond;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+<div id="container">
+<header>
+    <h1>PROCESS LAYOUT EXAMPLE</h1>
+</header>
+    <section id="content">
+        <div id="left-content">
+            <h3>Main menu</h3>
+            <p>Link one</p>
+            <p>Link two</p>
+            <p>Link three</p>
+            <p>Link four</p>
+        </div>
+        <div id="right-content">
+            <p>This is an example layout using the tables</p>
+        </div>
+    </section>
+   <footer>
+       <h3>www.Example of layout using tables.com</h3>
+   </footer>
+</div>
+</body>
+</html>

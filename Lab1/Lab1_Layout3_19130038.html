@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lab1_Layout3_19130038</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            font-family: 'tahoma', serif;
+            font-size: 25px;
+            font-weight: bold;
+            text-align: center;
+        }
+        p{
+            margin: 0;
+            padding: 0;
+        }
+        #container{
+            width: 1200px;
+            margin: auto;
+        }
+        #container header{
+            height: 120px;
+            border: 1px solid black;
+            background: burlywood;
+            margin: 10px;
+        }
+        .center-header{
+            padding-top: 30px;
+            text-align: center;
+        }
+        #container nav{
+            height: 400px;
+            border: 1px solid black;
+            background: #abb5ce;
+            margin: 10px;
+
+        }
+        #container  #content{
+            overflow: auto;
+        }
+        #container #content #service{
+            text-align: center;
+        }
+        #container #content #service .item{
+            width: 180px;
+            height: 220px;
+            background: cornflowerblue;
+            border: 1px solid black;
+            float: left;
+            clear: right;
+            margin: 40px;
+            padding: 18px;
+        }
+        #container footer{
+            height: 120px;
+            border: 1px solid black;
+            background: burlywood;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+<div id="container">
+    <header>
+        <p class="center-header">Header Section</p>
+    </header>
+    <nav>
+        <p class="center-header">Company Image</p>
+    </nav>
+    <section id="content">
+        <div id="service">
+            <p>Our Services</p>
+            <div class="item">Item</div>
+            <div class="item">Item</div>
+            <div class="item">Item</div>
+            <div class="item">Item</div>
+            <div class="item">Item</div>
+            <div class="item">Item</div>
+            <div class="item">Item</div>
+            <div class="item">Item</div>
+        </div>
+    </section>
+    <footer>
+        <p class="center-header">Footer Section</p>
+    </footer>
+</div>
+</body>
+</html>
