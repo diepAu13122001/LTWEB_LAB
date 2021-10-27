@@ -1,9 +1,15 @@
 html, body {
     font-family: Helvetica, sans-serif;
     font-weight: normal;
+    font-size: 12px;
     color: black;
     padding: 0;
     margin: 0;
+}
+
+a {
+    color: black;
+    text-decoration: none;
 }
 
 #container {
@@ -44,8 +50,22 @@ html, body {
 
 #container nav > ul > li ul {
     display: none;
+    position: absolute;
+    margin-top: 19px;
+    margin-left: -17px;
 }
 
-#container nav>ul li:hover ul {
+#container nav > ul li:hover ul {
     display: block;
+    background: #cccccc;
+}
+
+#container nav > ul li:hover ul li {
+    padding: 17px;
+    color: black;
+    border-bottom: 1px solid #99999999;
+}
+
+#container nav > ul li:hover ul li:hover a{
+    color: white;
 }
