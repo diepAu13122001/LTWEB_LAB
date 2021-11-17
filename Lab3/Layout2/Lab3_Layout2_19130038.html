@@ -1,14 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
     <title>Lab3_Layout2_19130038</title>
-    <link href="Lab3_Layout2_Style_19130038.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.0/css/font-awesome.css"
-          integrity="sha512-72McA95q/YhjwmWFMGe8RI3aZIMCTJWPBbV8iQY3jy1z9+bi6+jHnERuNrDPo/WGYEzzNs4WdHNyyEr/yXJ9pA=="
-          crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <meta charset="UTF-8">
+
+    <link rel="stylesheet" type="text/css" href="Lab3_Layout2_Style_19130038.css">
+    <script src="https://use.fontawesome.com/3168ca345a.js"></script>
 </head>
 <body>
 
+
+<div class="container">
+    <div class="wrap-login">
+        <form class="login-form">
+				<span class="login-form-title">
+					Sign In
+				</span>
+
+            <div class="wrap-input" data-validate="Enter username or email">
+                <input class="input1" type="text" name="username" placeholder="username or email">
+                <span class="focus-input1"></span>
+            </div>
+
+            <div class="wrap-input" data-validate="Enter password">
+                <input class="input1" type="password" name="pass" placeholder="password">
+                <span class="focus-input1"></span>
+            </div>
+
+            <div class="container-signin-form-btn">
+                <button class="signin-form-btn">
+                    Sign In
+                </button>
+            </div>
+
+            <div class="other-login-tittle">
+					<span class="txt1">
+						Or login with
+					</span>
+            </div>
+
+            <div class="login-social">
+                <a href="#" class="login-social-item">
+                    <i class="fa fa-facebook-f"></i>
+                </a>
+
+                <a href="#" class="login-social-item">
+                    <img src="icon-google.png" alt="GOOGLE">
+                </a>
+            </div>
+
+            <div class="signup-tittle">
+                <a href="#" class="txt2">
+                    Sign Up
+                </a>
+            </div>
+        </form>
+    </div>
+</div>
 </body>
 </html>
