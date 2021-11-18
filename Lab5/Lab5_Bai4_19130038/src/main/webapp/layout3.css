@@ -1,0 +1,161 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #b9b9b9;
+    background-color: #e3e3e3;
+}
+
+h4 {
+    color: #7ed321;
+    padding-bottom: 10px;
+}
+
+i {
+    padding: 20px 25px 15px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    line-height: 1.4;
+    background-color: #f9f9f9;
+    border: 1px solid #e5e5e5;
+    border-radius: 3px;
+    margin: 10px;
+}
+
+input:focus {
+    outline: none;
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+input[type="radio"] label {
+    display: inline-block;
+    width: 50%;
+    text-align: center;
+    float: left;
+}
+
+input[type="radio"]:checked + label {
+    background-color: #7ed321;
+    color: #fff;
+    border-color: #4c7222;
+}
+
+#terms {
+    width: 13px;
+    margin-right: 5px;
+}
+
+select {
+    height: 40px;
+    margin-top: -5px;
+    width: 49%;
+    margin-left: -5px;
+    background: #e5e5e5;;
+    border: 1px solid #e5e5e5;
+}
+
+select:focus, select:active {
+    outline: 0;
+}
+
+option {
+    color: #fff;
+    border: 1px solid #e5e5e5;
+}
+
+.input-group {
+    margin-bottom: 1em;
+}
+
+.input-group-icon {
+    position: relative;
+    margin-left: -10px;
+}
+
+.input-group-icon input {
+    padding-left: 55px;
+}
+
+.input-group-icon .input-icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 3.4em;
+    height: 3.4em;
+    line-height: 3.4em;
+    text-align: center;
+    pointer-events: none;
+}
+
+.input-group-icon .input-icon:after {
+    position: absolute;
+    top: 15px;
+    bottom: 0.6em;
+    left: 3.4em;
+    display: block;
+    border-right: 1px solid #e5e5e5;
+    content: "";
+
+}
+
+.container {
+    max-width: 38em;
+    padding: 1em 3em 2em 3em;
+    margin: 0em auto;
+    background-color: #fff;
+    border-radius: 4.2px;
+    box-shadow: 0px 3px 10px -2px rgba(0, 0, 0, 0.2);
+}
+
+.row {
+    display: table;
+    width: 100%;
+}
+
+.col-half {
+    padding: 10px;
+    float: left;
+    width: 50%;
+
+}
+
+.col-third {
+    padding-right: 10px;
+    float: left;
+    width: 33.3%;
+}
+
+.container-signup-form-btn {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.signup-form-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    height: 50px;
+    background-color: #7ed321;
+    border-radius: 25px;
+
+    font-size: 14px;
+    font-weight: bolder;
+    line-height: 1.2;
+    text-transform: uppercase;
+
+}

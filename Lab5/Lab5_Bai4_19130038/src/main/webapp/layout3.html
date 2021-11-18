@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lab5_Bai4_Layout3_19130038</title>
+    <link rel="stylesheet" href="layout3.css">
+</head>
+<body>
+
+<div class="container">
+
+    <form action="Layout3Servlet">
+        <div class="row">
+            <h4>Account</h4>
+            <div class="input-group-icon">
+                <input type="text" placeholder="Full Name" name="name">
+                <div class="input-icon">
+                    <i class="fa fa-user"></i>
+                </div>
+            </div>
+            <div class="input-group-icon">
+                <input type=" email" placeholder="Email Address" name="email">
+                <div class="input-icon">
+                    <i class="fa fa-envelope"></i>
+                </div>
+            </div>
+            <div class="input-group-icon">
+                <input type="password" placeholder="Password" name="password">
+                <div class="input-icon">
+                    <i class="fa fa-key"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-half">
+                <h4>Date of Birth</h4>
+                <div class="input-group">
+                    <div class="col-third">
+                        <input type="text" placeholder="DD" name="day">
+                    </div>
+                    <div class="col-third">
+                        <input type="text" placeholder="MM" name="month">
+                    </div>
+                    <div class="col-third">
+                        <input type="text" placeholder="YYYY" name="year">
+                    </div>
+                </div>
+
+                <div class="col-half">
+                    <h4>Gender</h4>
+                    <div class="input-group">
+                        <input type="radio" name="gender" value="male" id="gender-male">
+                        <label for="gender-male">Male</label>
+                        <input type="radio" name="gender" value="female" id="gender-female">
+                        <label for="gender-female">Female</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <h4>Payment Details</h4>
+                <div class="input-group">
+                    <input type="radio" name="payment-method" value="card" id="payment-method-card" checked="true">
+                    <label for="payment-method-card">
+                <span>
+                    <i class="fa fa-cc-visa">  Credit Card</i>
+                </span>
+                    </label>
+
+                    <input type="radio" name="payment-method" value="paypal" id="payment-method-paypal">
+                    <label for="payment-method-paypal">
+                    <span>
+                        <i class="fa fa-cc-paypal">  Paypal</i>
+                    </span>
+                    </label>
+
+                    <div class="input-group">
+                        <div class="input-group-icon">
+                            <input type="text" placeholder="Card Number" name="cardNum">
+                            <div class="input-icon">
+                                <i class="fa fa-credit-card"></i>
+                            </div>
+                        </div>
+                        <div class="col-half">
+                            <div class="input-group">
+                                <div class="input-group-icon">
+                                    <input type="text" placeholder="Card CVC" name="cvc">
+                                    <div class="input-icon">
+                                        <i class="fa fa-user"></i>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-half">
+                        <div class="input-group">
+                            <select>
+                                <option>01 Jan</option>
+                                <option>02 Jan</option>
+                            </select>
+                            <select>
+                                <option>2020</option>
+                                <option>2021</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="row">
+                <h4>Terms and Conditions</h4>
+                <div class="input-group">
+                    <input type="checkbox" id="terms" name="checkbox">
+                    <label for="terms">
+                        I accept the terms and conditions for signing up to this service, and hereby confirm
+                        have read the privacy policy.
+                    </label>
+                </div>
+            </div>
+            <div class="container-signup-form-btn">
+                <button class="signup-form-btn">Sign up</button>
+            </div>
+        </div>
+
+
+    </form>
+</div>
+
+<script src="https://use.fontawesome.com/3168ca345a.js"></script>
+
+</body>
+</html>
